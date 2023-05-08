@@ -1,46 +1,68 @@
-# Getting Started with Create React App
+# Jogo da Memória
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse projeto foi feito em aula do curso b7web
 
-## Available Scripts
+## Scripts disponíveis
 
-In the project directory, you can run:
+No directório do projeto, pode executar:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Executa a aplicação no modo de desenvolvimento.\
+Aberto [http://localhost:3000](http://localhost:3000) para o visualizar no browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+A página será recarregada se fizer edições.\
+Também verá quaisquer erros de lint do console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Constrói o aplicativo para produção no `build` pasta.\
+Ele agrupa corretamente o React no modo de produção e otimiza a compilação para obter o melhor desempenho.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+O build é  é minified  e os filenames incluem os hashes..\
+Seu aplicativo está pronto para ser implantado!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Ver a secção sobre [deployment](https://facebook.github.io/create-react-app/docs/deployment) para mais informações.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Instalações de Bibliotecas
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- `styled-components`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- ` @types `
 
-## Learn More
+## Criação de Pastas no `SRC`
+<table>
+ <tr>
+ <td>Assets</td>
+ <td>Contem as imagens e logo</td>
+ </tr>
+  <tr>
+ <td>Components</td>
+ <td>Obtem os Components do projetos</td>
+ </tr>
+  <tr>
+ <td>Data</td>
+ <td>Dados com os item que temos para exibir,as imagens dos itens</td>
+ </tr>
+  <tr>
+ <td>Types</td>
+ <td>Types para os itens dos projeto</td>
+ </tr>
+  <tr>
+ <td>Types</td>
+ <td>Types para os itens dos projeto</td>
+ </tr>
+  <tr>
+ <td>GridItem</td>
+ <td>Pasta Item do grid onde fica os arquivos Items</td>
+ </tr>
+  <tr>
+ <td>Helpers</td>
+ <td>Pasta de ajudadores que fica os arquivos</td>
+ </tr>
+</table>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
